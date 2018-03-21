@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>1ssiteonphp</title>
+    <title>Form</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <div class="form">
-<h2>Введите свои данные </h2>
+<h2 class="h2"><a href="index.php">Введите свои данные</a></h2>
 <form  action="action.php" method="post">
     <p>Ваше имя<br>
         <input name="name" type="name" pattern="/^([A-Z]{1})+\w+/">

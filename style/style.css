@@ -17,6 +17,11 @@
 
 }
 
+.h2{
+
+}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
 ::-moz-selection {
     color: #fff;
     text-shadow: none;
