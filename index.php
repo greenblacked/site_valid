@@ -8,15 +8,15 @@
 <body>
 <div class="form">
 <h2 class="h2"><a href="index.php">Введите свои данные</a></h2>
-<form  action="action.php" method="post">
+<form id="form" action="action.php" method="post">
     <p>Ваше имя<br>
-        <input name="name" type="name" pattern="/^([A-Z]{1})+\w+/">
+        <input name="name" type="name" >
     </p>
     <p>Ваше e-mail<br>
-        <input name="email" type="email" pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/">
+        <input name="email" type="email" pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/*.">
     </p>
     <p>Пароль<br>
-        <input  name="pass" type="password" pattern="/(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}/">
+        <input id="pass" name="pass" type="text" >
     </p>
     <p>
         <label>
