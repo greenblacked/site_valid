@@ -7,13 +7,13 @@
 </head>
 <body>
 <h2>Данные</h2>
-<a href="admin.php" onClick="goclear()" id="button">Clear</a></br>
+<a href="admin_clear.php" onClick="goclear();" id="button">Clear</a></br>
 <script type="text/javascript">
     var btn = document.getElementById('button');
     function goclear() {
-        alert("Очистка .......");
-        document.location.href = "admin_clear.php";
-    };
+        // alert("Очистка .......");
+        document.location.href = "admin.php";
+    }
 </script>
 <!--<form action="admin_clear.php">-->
 <!--    <input type="button" value="Очистить">-->

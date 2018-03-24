@@ -1,8 +1,9 @@
 <?php
 //open file to write
-$fp = fopen("message.txt", "w");
+$fh = fopen("message.txt", "w");
 // clear content to 0 bits
-ftruncate($fp, 0);
+ftruncate($fh, 0);
 //close file
-fclose($fp);
+fclose($fh);
+header("Location: admin.php")
 ?>
